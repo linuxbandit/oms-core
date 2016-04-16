@@ -1,5 +1,9 @@
 {
   "port": 8080,
+  "module": {
+    "user": "coreService",
+    "password": "aegee-core-service"
+  },
   "ldap": {
     "url": "ldap://127.0.0.1:389",
     "rootpw": "aegee"
@@ -8,7 +12,9 @@
     "url": "mongodb://localhost:27017"
   },
   "secret": "the rise and fall of ziggy stardust and spiders from mars",
-  
+  "rest_token": {
+    "url": "http://127.0.0.1:8090"
+  },
   "grant_flow": {
     "authorityHostUrl": "https://login.microsoftonline.com",
     "application_id": "best of the beast",

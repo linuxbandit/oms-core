@@ -13,6 +13,18 @@ description: Services that constitute the whole membership system
 dn: uid=profilesModule,ou=services,o=aegee,c=eu
 objectclass: aegeeService
 uid: profilesModule
-userPassword: PrOfIlEmOdUlE
+userPassword: aegee-profile-module 
+info: Provider of front-end to profiles for users and antennae
+
+dn: uid=coreService,ou=services,o=aegee,c=eu
+objectclass: aegeeService
+uid: profilesModule
+userPassword: aegee-core-service 
 info: Provider of profiles for users and antennae
+
+dn: uid=cronService,ou=services,o=aegee,c=eu
+objectclass: aegeeService
+uid: profilesModule
+userPassword: aegee-cron-service
+info: Provider of automated tasks on users and antennae
 

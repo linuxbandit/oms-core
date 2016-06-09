@@ -15,6 +15,10 @@
   "rest_token": {
     "url": "http://127.0.0.1:8090"
   },
+  "rest": {
+        "core": {  "url": "http://127.0.0.1:8080" },
+        "token": {  "url": "http://127.0.0.1:8090" }
+    },
   "grant_flow": {
     "authorityHostUrl": "https://login.microsoftonline.com",
     "application_id": "best of the beast",
